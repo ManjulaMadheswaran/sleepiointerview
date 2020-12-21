@@ -1,0 +1,49 @@
+List of Test plan for Onboarding Sleepio Task 
+1) Entry Criteria
+   --> Home Test  requirement should be received
+   
+2) Exit Criteria
+   --> Sample automation scripts for UI and services to be created 
+   --> Bug should be logged
+   --> Test plan should be created
+   --> Create how to documents for automation
+   
+3) Scope
+    --> High level requirement overview
+		1)End to End onboarding sleepio journey validation 
+		2)Questionaires validations 
+		
+	--> browser scope
+	    Browser : Chrome - 87.0.4280.88
+		Mobile browser - Android : Chrome - 87.0.4280.101
+		
+	--> Out of Scope
+	    Everything else that is not mentioned in this document
+		
+4) Test Approach
+  
+  To test the Onboarding sleepio proejct within the defined scope
+  
+  1) Manual Testing
+	    --> Test from GetStarted Landing Page to Sign Up Page including privacy statements
+		
+   2) Automation Testing
+	   i) Back End Testing
+		--> TechStack :
+			Framework : TestNG
+			Programming Language : Java with RestAssured
+
+		--> Automate REST APIs
+		   Covered :  https://onboarding.sleepio.com/sleepio/big-health
+
+		--> Auomated in Java using REST ASSURED with the TESTNG framework
+	   
+	   ii) Front End Testing
+		--> TechStack
+			Framework : Cucumber 
+			Programming Language : JavaScript
+			Tool : webdriverIO
+
+		--> Automate the UI Pages from GetStarted Landing Page to Sign Up Page
+
+		--> Automated in Javascript with webdriverIO using cucumber framework
